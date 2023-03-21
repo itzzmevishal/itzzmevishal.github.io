@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML </title>
+  <!-- this is how you include external css -->
+  <link rel="stylesheet" href="style.css">
+  <!-- this is how you include external JavaScript  -->
+  <script src="brain"></script>
+</head>
+<!-- from here the body of the website starts -->
+
+<body>
+  <h1>HTML</h1>
+  For anything in this World you can visit this site:-
+  <a href="https://www.google.com" target="_blank"> <br><button>Google</button></a><br>
+  <!--here "a" is a tag and "href" is an attributes.And "_blank" is used to open the link in new tab. -->
+  <img src="" alt="">
+  
+  <hr>
+  <!-- ............................................... -->
+  <h3>Lists</h3>
+  <ul> <!--Unordered list-->
+    <li>This is one.</li>
+    <li>This is two.</li>
+    <ul>
+      <li>This is a new one</li>
+    </ul>
+    <li>This is three</li>
+  </ul>
+  <ol type="i"> <!--Ordered list-->
+    <li>One</li>
+    <li>Two</li>
+  </ol>
+
+  <hr>
+  <!-- ............................................... -->
+  <!-- Tables -->
+  <h3>TABLES</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Class</th>
+        <th>Roll</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Vishal</td>
+        <td>B.Tech</td>
+        <td>35</td>
+      </tr>
+      <tr>
+        <td>Arsalan</td>
+        <td>B.Tech</td>
+        <td>36</td>
+      </tr>
+      <tr>
+        <td>Mani</td>
+        <td>B.Tech</td>
+        <td>87</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr>
+  <!-- ............................................... -->
+  <!-- forms -->
+  <h3>FORMS</h3>
+  <form action="backend.php">
+    <div>
+      Name: <input type="text">
+    </div>
+    <br>
+    <div>
+      Date: <input type="date">
+    </div>
+    <br>
+    <div>
+      Email: <input type="email">
+    </div>
+    <br>
+    <div>
+      Are you Eligible(CheckBox): <input type="checkbox">
+    </div>
+    <br>
+    <div>
+      Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+    </div>
+    <br>
+    <div>
+      Tell me about yourself:- <textarea name="myText" id="" cols="30" rows="3"></textarea>
+    </div>
+    <br>
+    <div>
+      <label for="Course">Courses</label>
+      <select name="myCourse" id="Course"> <!--For options selections-->
+        <option value="metric">Metric</option>
+        <option value="intermediate">Intermediate</option>
+        <option value="diploma">Diploma</option>
+        <option value="Btech">B.Tech</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <input type="submit" value="SUBMIT">
+      <input type="reset" value="RESET">
+    </div>
+  </form>
+
+  <hr>
+  <!-- ............................................... -->
+  <!-- Inline and Block Elements -->
+  <h3>Inline and Block Elements</h3>
+
+  <!-- Inline Elements:- Jo sirf apni jagah lete h [Tag = <span></span>].
+  Block Elements:- Jo puri width le lete h [Tag = <p></p>]. -->
+  <p style="border: 2px solid rgb(68, 14, 245);">This is a paragraph.</p>
+  <p style="border: 2px solid rgb(2, 255, 61);">This is also a paragraph.</p> <!--Block Elements-->
+
+  <strong style="border: 2px solid rgb(124, 2, 255);">This is also a "strong tag" paragraph-1</strong>
+  <!--Inline Elements-->
+
+  <a style="border: 2px solid rgb(0, 187, 255);">This is also a "anchor tag" paragraph-2.</a> <!--Inline Elements-->
+
+  <ul style="border: 2px solid rgb(0, 187, 255);">This is also a "ul tag" paragraph-3.</ul> <!--Block Elements-->
+
+  <li style="border: 2px solid rgb(0, 187, 255);">This is also a "li tag" paragraph-4.</li> <br> <!--Block Elements-->
+
+  <div style="border: 2px solid rgb(0, 187, 255);">This is also a "div tag" paragraph-5. </div> <br>
+  <!--Block Elements-->
+
+  <span style="border: 2px solid red;">This is a span.</span> <span style="border: 2px solid red;">This is also a
+    Span.</span> <!--Inline Elements-->
+
+  <hr>
+  <!-- ............................................... -->
+  <!-- Ids and classes in HTML -->
+  <h3> Ids and Classes in HTML</h3>
+
+  <!--here "id" name can be defined to a particular elements, but same "class" name can be defined to a multiple elements.-->
+  <div id="ids_number" class="Ids">
+  </div>
+
+  <!-- Emmet -->
+  <!-- "." is used for "class" && "#" is used for "id". -->
+  <span class="redBg"></span> <!--span.redBg + <tab>-->
+  <span id="mainSpan"></span> <!--span#mainSpan + <tab>-->
+  <span class="regBg" id="mainSpan"></span> <!--span.redBg#mainSpan + <tab>-->
+
+  <!-- Createing multiple elements using Emmets.= "span.myClass myClass2 myClass3*4 + <tab>" -->
+  <span class="myClass myClass2 myClass3">First</span>
+  <span class="myClass myClass2 myClass3">Second</span>
+  <span class="myClass myClass2 myClass3">Third</span>
+  <span class="myClass myClass2 myClass3">Fourth</span>
+
+  <!-- Emmet takes "div" tag as default -->
+  <div class="myClass"> </div> <!--".myClass" for div tag with "class" name-->
+  <div id="mainSpan"></div> <!--"#mainSpan" for div tag with "id" name-->
+
+  <hr>
+  <!-- ............................................... -->
+  <!-- HTML Entities = Aisa String or characters jo reserved h HTML me unko likhne ke liye HTML Entities use hota h. -->
+  <h3>HTML Entities</h3>
+  <div>
+    <p>This is a normal paragraph.</p>
+    <p>Pound is written in HTML like this &pound;.</p>
+    <p>Copyright is written in HTML like this &copy;.</p>
+    <p>Theta is written in HTML like this &Theta;.</p>
+    <p>Sigma is written in HTML like this &Sigma;.</p>
+    <p>Pi is written in HTML like this &Pi; and &pi;.</p>
+    <p>Lessthen and Greater then in the middle of the paragraph is written as &lt;p&gt;.</p>
+    <!--"&lt;" for "<" and "&gt;" for ">". -->
+    <p>Empty Character &#8203;.</p>
+    <p>This is another. &nbsp; &nbsp; .paragraph with two spaces in the middle of the two dots.</p>
+  </div>
+
+  <hr>
+  <!-- ............................................... -->
+  <!-- Semantic Tags in HTML -->
+  <h3>Semantic Tags in HTML or Semantic Elements </h3>
+  <p>
+    <li> A semantic element clearly describes its meaning to both the browser and the developer.</li> <br>
+
+    <li> Examples of non-semantic elements: &lt;div&gt; and &lt;span&gt; - Tells nothing about its content. </li><br>
+
+    <li>Examples of semantic elements: &lt;form&gt;, &lt;table&gt;, and &lt;article&gt; - Clearly defines its content.
+      <br>
+      <ol type="i">
+        <li> &lt;article&gt;</li>
+        <li> &lt;aside&gt;</li>
+        <li> &lt;details&gt;</li>
+        <li> &lt;figcaption&gt;</li>
+        <li> &lt;figure&gt;</li>
+        <li> &lt;footer&gt;</li>
+        <li> &lt;header&gt;</li>
+        <li> &lt;main&gt;</li>
+        <li> &lt;mark&gt;</li>
+        <li> &lt;nav&gt;</li>
+        <li> &lt;section&gt;</li>
+        <li> &lt;summary&gt;</li>
+        <li> &lt;time&gt;</li>
+      </ol>
+  </p>
+  <hr>
+  <!-- ............................................ -->
+  <!-- CSS  -->
+
+
+
+
+</body>
+
+</html>

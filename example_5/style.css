@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    min-height: 100vh;
+    background: url(bg1.png) no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 50px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 25px;
+
+}
+
+.nav {
+
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 50px;
+    border-bottom: none;
+
+}
+
+.home {
+    margin: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.login {
+    height: 40px;
+    box-shadow: 0px 3px 15px rgb(1, 16, 27);
+    width: 100px;
+    color: rgb(1, 250, 250);
+    background: rgba(2, 61, 107, 0.749);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    border-color: aqua;
+    margin-right: 30px;
+}
+.login:hover {
+    background-color: aqua;
+    color: black;
+    border-color: rgb(250, 248, 248);
+}
+
+.main {
+
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15vh;
+    align-items: center;
+    border: 2px solid aqua;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    height: 450px;
+    width: 350px;
+    border-radius: 15px;
+    flex-direction: column;
+    box-shadow: 0px 3px 15px rgb(7, 144, 248);
+
+
+}
+
+h1 {
+    color: aqua;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.box {
+    width: 200px;
+    margin: 30px 0;
+    border-bottom: 2px solid aqua;
+    outline: none;
+}
+
+::placeholder {
+    color: rgb(164, 255, 247);
+}
+
+.box input {
+    width: 170px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(198, 251, 246);
+    font-family: 'Sono', sans-serif;
+    font-weight: bold;
+    transition: .5s;
+}
+
+i {
+    position: absolute;
+    right: 55px;
+    font-size: 1.4em;
+    color: aqua;
+
+}
+
+.btn {
+    height: 40px;
+    box-shadow: 0px 3px 15px rgb(7, 144, 248);
+    width: 200px;
+    color: aqua;
+    background: rgba(59, 133, 190, 0.749);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    border-color: aqua;
+
+
+}
+
+.btn:hover {
+    background-color: aqua;
+    color: black;
+    border-color: rgb(250, 248, 248);
+}

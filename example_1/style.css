@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.sidebar{
+    background-color: rgb(55, 197, 223);
+    width: 25vw;
+}
+
+.main{
+    background-color: rgb(110, 207, 202);
+    width: 75vw;
+}
+
+.container{
+    display:flex;
+}

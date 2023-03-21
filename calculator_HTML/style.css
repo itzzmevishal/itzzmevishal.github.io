@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    background: linear-gradient(45deg, rgb(11, 10, 50), black);
+    background-size: cover;
+}
+
+
+
+
+
+/* WELCOME */
+header{
+    display: flex;
+    justify-content:space-between;
+    height: 90px;
+
+    
+}
+
+.home{
+    display: flex;
+    text-decoration: none;
+    color: rgb(14, 60, 60);
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(47, 225, 222);
+   
+}
+
+.welcome {
+    display: flex;
+    /* justify-content: center; */
+    font-size: 40px;
+    color: aqua;
+    margin-bottom: 50px;
+    margin-right: 250px;
+    
+}
+
+.calculator {
+    display: flex;
+    margin-left: 500px;
+    flex-direction: column;
+    width: 350px;
+    padding: 27px;
+    border: 1px solid grey;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(11, 113, 119, 1);
+}
+
+input {
+    width: 270px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(11, 113, 119, 0.5);
+    color: antiquewhite;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: antiquewhite;
+}
+
+button {
+
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 20%;
+    background: transparent;
+    color: antiquewhite;
+    font-size: 18px;
+    box-shadow: 0px 3px 15px rgba(11, 113, 119, 0.5);
+    cursor: pointer;
+
+}
+
+.eqlbtn {
+    background-color: rgb(8, 144, 108);
+}
+
+.operator {
+    color: rgb(11, 202, 151);
+}
