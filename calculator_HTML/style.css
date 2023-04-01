@@ -7,7 +7,9 @@
 .main {
     height: 100vh;
     background: linear-gradient(45deg, rgb(11, 10, 50), black);
-    background-size: cover;
+    background-size: center/cover;
+    position: relative;
+
 }
 
 
