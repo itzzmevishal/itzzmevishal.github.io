@@ -7,9 +7,7 @@
 }
 
 body {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+   
     min-height: 100vh;
     background: url(Welcome.jpg) no-repeat;
     background-size: cover;
@@ -18,7 +16,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    /* background-color: aqua; */
+    flex-wrap: wrap;
     height: 50px;
     align-items: center;
     color: aqua;
@@ -65,3 +63,25 @@ header {
     border-color: rgb(250, 248, 248);
 }
 
+footer .footer{
+    color:aliceblue;
+    position: absolute;
+    bottom:150%;
+    
+}
+
+
+
+/* ###########################Exception###################### */
+/* 
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    border: 2px solid red;
+    display: inline-block;
+    width: 100%;
+} */
