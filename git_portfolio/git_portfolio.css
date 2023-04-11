@@ -12,12 +12,12 @@
     height: 83vh;
 }
 
-.intro{
+.intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 9px;
+    margin-top: 5px;
 }
 
 .view-count {
@@ -34,7 +34,7 @@
 .view-count .user-count img {
     margin: 15px;
     box-shadow: 0px 3px 15px rgb(216, 53, 53);
-    
+
     height: 30px;
     width: 150px;
 }
@@ -75,7 +75,7 @@
 }
 
 .gif .image img {
-margin-bottom: 5px;
+    margin-bottom: 5px;
     height: 40vh;
     width: 60vh;
     border-radius: 10px;
