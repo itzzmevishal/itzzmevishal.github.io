@@ -30,7 +30,7 @@
 }
 
 .view-count .user-count img {
-    margin: 15px;
+    margin: 1.1rem 5rem ;
     box-shadow: 0px 3px 15px rgb(216, 53, 53);
 
     height: 30px;
@@ -50,7 +50,7 @@
     cursor: pointer;
     border: none;
     letter-spacing: 1px;
-    margin: 15px;
+    margin: 1.1rem 5rem;
 }
 
 .view-count button:hover {
@@ -92,7 +92,9 @@
 
 .list p {
     color: rgb(226, 40, 40);
-    font-size: 3vh;
+    font-size: 1.1rem;
+    margin-bottom: 1.1rem;
+
 }
 
 
@@ -118,6 +120,7 @@
 
     border-radius: 10px;
     box-shadow: 0px 3px 15px rgb(226, 40, 40);
+    margin-bottom: 1.2rem;
 }
 
 .tools .h3 {
@@ -126,7 +129,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 1.1rem;
     color: rgb(226, 43, 43);
 }
 
@@ -135,7 +138,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 5vh;
+    margin-bottom: 3rem;
 }
 
 .connect h3 {
