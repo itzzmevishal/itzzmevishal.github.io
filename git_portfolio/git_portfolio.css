@@ -17,6 +17,13 @@
     align-items: center;
     margin-top: 1.3rem;
 }
+.name{
+  text-align: center;
+
+}
+.intro1{
+text-align: justify;
+}
 
 .view-count {
     /* border: 2px solid; */
