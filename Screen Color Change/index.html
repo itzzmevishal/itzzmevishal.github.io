@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Color Change</title>
+</head>
+
+<body>
+    <div class="body">
+        <button>Click</button>
+    </div>
+    <style>
+        .body {
+            height: 100vh;
+            width: 100vw;
+            /* background-color: rgb(194, 96, 50); */
+            background-color: aqua;
+        }
+
+        button {
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            color: white;
+            background-color: black;
+        }
+    </style>
+    <script>
+
+        let a = document.querySelector(".body")
+let flag=0;
+
+
+        document.querySelector("button").addEventListener("click", function () {
+           if(flag==0){
+
+               a.style.backgroundColor = "green"
+               flag=1;
+           }
+           else{
+            a.style.backgroundColor = "cyan"
+            flag=0;
+           }
+        });
+
+    </script>
+</body>
+
+</html>

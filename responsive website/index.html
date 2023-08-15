@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="list">
+                <p>Home</p>
+                <p>Contact</p>
+                <p>Address</p>
+                <p>Contact</p>
+                <button>Sign In</button>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left">Lets Start <span>Coding.</span></div>
+            <div class="right"></div>
+        </div>
+    </div>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .main {
+          
+            height: 100%;
+            width: 100%;
+            /* background-color: orange; */
+            /* color: white; */
+        }
+        
+        .nav {
+            border-bottom: 1px solid black;
+            padding: 0 5vw;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+        }
+
+        .logo h1{
+            font-size: 40px;
+            font-weight: 700;
+        }
+        
+        .nav .list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+        }
+        .list p{
+            font-weight: 700;
+            font-size: 20px;
+
+        }
+        .list button{
+            height: 40px;
+            width: 90px;
+            background-color: #FF735E;
+            color: white;
+            font-weight: 600;
+            font-size: 15px;
+            border-radius: 5px;
+            border: none;
+
+        }
+
+        .left{
+            background-color: rgb(128, 241, 241);
+            height: calc(100% - 60px);
+        }
+    </style>
+</body>
+
+</html>
